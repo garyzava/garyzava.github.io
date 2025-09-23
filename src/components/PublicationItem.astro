@@ -1,0 +1,31 @@
+---
+import type { Publication } from '../data/publications';
+const { publication } = Astro.props as { publication: Publication };
+---
+<li class="py-4 border-b border-gray-200 dark:border-gray-700">
+  <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+    <div>
+      <h4 class="text-lg font-medium text-indigo-700 dark:text-indigo-400">
+        {publication.title}
+      </h4>
+      <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">
+        {publication.summary}
+      </p>
+    </div>
+    <div class="mt-2 sm:mt-0 sm:text-right">
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        <span class="font-semibold">{publication.outlet}</span> • {publication.date}
+      </p>
+      {publication.url && (
+        <a
+          href={publication.url}
+          target="_blank"
+          rel="noopener"
+          class="mt-1 inline-block text-sm text-indigo-600 dark:text-indigo-400 hover:underline"
+        >
+          Read more
+        </a>
+      )}
+    </div>
+  </div>
+</li>

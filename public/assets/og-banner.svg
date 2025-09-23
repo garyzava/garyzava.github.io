@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Open Graph banner for Gary Zavaleta's site.
+  The graphic uses a dark background with a subtle gradient and highlights
+  the name and title.  SVG is used here so that the text remains crisp when
+  rendered by social sharing sites.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#3a0ca3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <!-- Accent shape -->
+  <path d="M0 630L0 450C150 420 300 540 450 510C600 480 750 390 900 420C1050 450 1200 360 1200 360L1200 630Z" fill="url(#accent)" opacity="0.25" />
+  <!-- Text content -->
+  <text x="60" y="240" font-family="Inter, Arial, sans-serif" font-size="72" fill="#ffffff" font-weight="700">Gary Zavaleta</text>
+  <text x="60" y="330" font-family="Inter, Arial, sans-serif" font-size="36" fill="#a5b4fc" font-weight="400">Sr Director, Analytics &amp; Data Science</text>
+  <text x="60" y="390" font-family="Inter, Arial, sans-serif" font-size="24" fill="#9ca3af" font-weight="300">GenAI, RAG &amp; Text‑to‑SQL innovator</text>
+</svg>
