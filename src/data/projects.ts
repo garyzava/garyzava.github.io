@@ -39,11 +39,11 @@ export const projects: Project[] = [
     description:
       'An end‑to‑end retrieval‑augmented generation pipeline over Ethereum blockchain data stored in BigQuery.  It demonstrates how to explore transaction and contract metadata using natural language and provides sample queries and data modelling best practices.',
     tags: ['Ethereum', 'BigQuery', 'RAG', 'Data Modelling'],
-    repo: 'https://github.com/garyzava/bigquery-ai',
+    repo: 'https://github.com/garyzava/bigq-ethereum-rag',
     demo: '',
     image: '/assets/ethereum-rag-art.png',
     fileLink:
-      'https://github.com/garyzava/bigquery-ai/blob/main/notebooks/02.chat2db-app.ipynb',
+      'https://github.com/garyzava/bigq-ethereum-rag/blob/main/notebooks/ethereum_analyzer.ipynb',
     bullets: [
       'Queries Ethereum blockchain data in BigQuery using conversational prompts',
       'Constructs a retrieval pipeline over transaction and contract metadata',
