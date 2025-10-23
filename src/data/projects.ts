@@ -43,7 +43,7 @@ export const projects: Project[] = [
     demo: '',
     image: '/assets/ethereum-rag-art.png',
     fileLink:
-      'https://github.com/garyzava/bigq-ethereum-rag/blob/main/notebooks/ethereum_analyzer.ipynb',
+      'https://github.com/garyzava/bigq-ethereum-rag/blob/main/write-up.md',
     bullets: [
       'Queries Ethereum blockchain data in BigQuery using conversational prompts',
       'Constructs a retrieval pipeline over transaction and contract metadata',
