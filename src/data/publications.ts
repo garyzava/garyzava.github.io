@@ -13,10 +13,10 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
-    title: 'Chat‑2‑DB: Conversational BigQuery with RAG',
-    outlet: 'Blog',
-    date: '2024‑12',
-    url: 'https://github.com/garyzava/chat-to-database-chatbot/blob/main/Capstone%20Final%20Report.pdf',
+    title: 'Why 90% Accuracy in Text-to-SQL is 100% Useless',
+    outlet: 'Towards Data Science',
+    date: '2026‑01‑12',
+    url: 'https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/',
     summary:
       'Designing and evaluating a text‑to‑SQL pipeline over BigQuery with retrieval and table augmentation guardrails.'
   },
