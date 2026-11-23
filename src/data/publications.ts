@@ -18,11 +18,11 @@ export const publications: Publication[] = [
     date: '2026‑01‑12',
     url: 'https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/',
     summary:
-      'Designing and evaluating a text‑to‑SQL pipeline over BigQuery with retrieval and table augmentation guardrails.'
+      'Argues that a text-to-SQL system people use without a data expert must be right every time, so 80 or 90 percent accuracy is not enough to keep their trust. Explains the measures that matter: execution accuracy, focused evaluation, soft F1 and a language model as judge. Shows that models above 90 percent on the older Spider 1.0 benchmark fall to 10 to 20 percent on Spider 2.0.'
   },
   {
     title: 'Querying Ethereum on BigQuery: a Practical Guide',
-    outlet: 'GitHub Self Publish',
+    outlet: 'Kaggle BigQuery AI hackathon',
     date: '2025‑09‑22',
     url: 'https://github.com/garyzava/bigq-ethereum-rag',
     summary:
