@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     title: 'Chat‑2‑DB',
     description:
-      'A GenAI chatbot that converts natural language to SQL using Retrieval‑Augmented and Table‑Augmented Generation methods.  The project demonstrates how to democratise access to structured data, combining LLM providers with vector search.',
+      'A GenAI chatbot that converts natural language to SQL using Retrieval‑Augmented and Table‑Augmented Generation methods.  Capstone project of the Master of Applied Data Science at the University of Michigan.',
     tags: ['BigQuery', 'RAG', 'Text‑to‑SQL', 'Gradio', 'Python'],
     repo: 'https://github.com/garyzava/chat-to-database-chatbot',
     demo: '',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
   {
     title: 'Ethereum RAG with BigQuery',
     description:
-      'An end‑to‑end retrieval‑augmented generation pipeline over Ethereum blockchain data stored in BigQuery.  It demonstrates how to explore transaction and contract metadata using natural language and provides sample queries and data modelling best practices.',
+      'An end‑to‑end retrieval‑augmented generation pipeline over Ethereum blockchain data stored in BigQuery.  Built for the Kaggle BigQuery AI hackathon, with sample queries and data modelling notes.',
     tags: ['Ethereum', 'BigQuery', 'RAG', 'Data Modelling'],
     repo: 'https://github.com/garyzava/bigq-ethereum-rag',
     demo: '',
